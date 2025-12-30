@@ -1,0 +1,41 @@
+.categories {
+  height: 130px;
+  width: 1200px;
+
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.categories img {
+  border-radius: 50%;
+}
+.categories img:hover {
+  border: 5px solid green;
+}
+
+.addtocart {
+  background-color: green;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.removecart {
+  background-color: red;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}

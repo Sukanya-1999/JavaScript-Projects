@@ -1,0 +1,47 @@
+#bgimg {
+  height: 300px;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7)),
+    url("https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  background-position: center;
+}
+
+#userImage {
+  border-radius: 50%;
+  position: absolute;
+  left: 43%;
+  top: 200px;
+}
+
+main h2 {
+  margin-top: 110px;
+  text-align: center;
+  color: darkgreen;
+  font-size: 28px;
+  text-shadow: 0 0 3px black;
+}
+main h4 {
+  margin-top: 5px;
+  text-align: center;
+}
+main p {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+main img {
+  border-radius: 50%;
+}
+
+#logos {
+  width: 200px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+#icon {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
